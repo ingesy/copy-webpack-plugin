@@ -13,7 +13,7 @@ var _crypto = require('crypto');
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /* eslint-disable import/no-commonjs */
-var fs = _bluebird2.default.promisifyAll(require('fs-extra'));
+var fs = _bluebird2.default.promisifyAll(require('graceful-fs-extra'));
 /* eslint-enable */
 
 exports.default = function (opts) {
