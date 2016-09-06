@@ -8,7 +8,7 @@ import shouldIgnore from './shouldIgnore';
 
 /* eslint-disable import/no-commonjs */
 const globAsync = Promise.promisify(require('glob'));
-const fs = Promise.promisifyAll(require('fs-extra'));
+const fs = Promise.promisifyAll(require('graceful-fs-extra'));
 /* eslint-enable */
 
 function CopyWebpackPlugin(patterns = [], options = {}) {
