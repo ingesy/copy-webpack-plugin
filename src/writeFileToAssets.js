@@ -1,7 +1,7 @@
 import Promise from 'bluebird';
 
 /* eslint-disable import/no-commonjs */
-const fs = Promise.promisifyAll(require('fs-extra'));
+const fs = Promise.promisifyAll(require('graceful-fs-extra'));
 /* eslint-enable */
 
 import {
